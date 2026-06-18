@@ -8,6 +8,9 @@ const user = document.getElementById('user')
 const pontos = document.getElementById('pontos')
 
 let cont = 0
+for(i = 1; i<=usuarios.length;i+1){
+    cont = i
+}
 
 JSON.parse(localStorage.users).forEach(u => {
     rank.innerHTML += `
@@ -21,3 +24,4 @@ JSON.parse(localStorage.users).forEach(u => {
         <h1 class="bg-[#aed5f1] rounded-full shadow-lg">${u.pontos}</h1>
     `
 })
+

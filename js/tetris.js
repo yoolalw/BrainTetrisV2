@@ -9,6 +9,7 @@ setInterval(() => {
         cont.textContent = ""
     }
 }, 1000)
+
 const pnt = document.getElementById('pnt')
 JSON.parse(localStorage.users).forEach(u => {
     pnt.innerHTML = `
@@ -20,11 +21,6 @@ JSON.parse(localStorage.users).forEach(u => {
 function home() {
     window.location.href = "home.html"
 }
-
-
-
-
-
 
 for (i = 0; i < 6; i++) {
     tetris.innerHTML += `   
