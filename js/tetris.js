@@ -22,12 +22,12 @@ function home() {
 }
 
 
-    grid()
 
 
-function grid() {
-    for (i = 0; i < 6; i++) {
-        tetris.innerHTML += `   
+
+
+for (i = 0; i < 6; i++) {
+    tetris.innerHTML += `   
     <div class="flex flex-col">
         <div class="h-20 w-21 border-2 border-[#a2ded0]"></div>        
         <div class="h-20 w-21 border-2 border-[#a2ded0]"></div>        
@@ -41,6 +41,4 @@ function grid() {
         <div class="h-20 w-21 border-2 border-[#a2ded0]"></div>        
     </div>
         `
-
-    }
 }
