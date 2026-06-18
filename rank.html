@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainTetris</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="bg  z-[-1]">
+        <img src="img/bg.jpg" class="w-full opacity-80 fixed z-[-1]">
+    </div>
+
+    <div class="head z-5 h-33 w-full bg-[#ededed] shadow-xl fixed">
+        <div class="flex ">
+            <img src="img/Logo.png" class="h-33 ml-10">
+            <h1 class="text-[60px] mt-4 ml-2 text-[#a2ded0] font-bold cursor-pointer" onclick="home()">BrainTetris</h1>
+            <h1 class="text-[60px] mt-4 ml-30 text-[#333] font-bold cursor-pointer">RANKING DE PONTUACOES</h1>
+        </div>
+    </div>
+    <div class="h-33 z-4 w-full"></div>
+
+    <div class="justify-center align-middle items-center mt-10 m-auto flex">
+        <div class="con h-[700px] w-[640px] mr-100 border-3 rounded-lg flex border-[#aed5f1]">
+            <div class="h-full text-center justify-center w-[210px] ">
+                <h1 class="text-bold border-2 border-[#aed5f1] text-[#333] text-[30px] font-bold">Posição</h1>
+            </div>
+            <div class="h-full text-center justify-center w-[225px]">
+
+                <h1 class="text-bold text-[#333] text-[30px] font-bold border-2 border-[#aed5f1] ">Jogador</h1>
+            </div>
+            <div class="h-full text-center justify-center w-[225px]">
+                <h1 class="text-bold text-[#333] text-[30px] font-bold border-2 border-[#aed5f1] ">Pontuação</h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/rank.js"></script>
+</body>
+
+</html>
