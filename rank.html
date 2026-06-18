@@ -26,18 +26,22 @@
         <div class="con h-[700px] w-[640px] mr-100 border-3 rounded-lg flex border-[#aed5f1]">
             <div class="h-full text-center justify-center w-[210px] ">
                 <h1 class="text-bold border-2 border-[#aed5f1] text-[#333] text-[30px] font-bold">Posição</h1>
+                <div id="rank" class="rank gap-2 flex flex-col  rounded-full"></div>
             </div>
             <div class="h-full text-center justify-center w-[225px]">
-
                 <h1 class="text-bold text-[#333] text-[30px] font-bold border-2 border-[#aed5f1] ">Jogador</h1>
+                <div id="user" class="user gap-2 flex flex-col"></div>
             </div>
             <div class="h-full text-center justify-center w-[225px]">
                 <h1 class="text-bold text-[#333] text-[30px] font-bold border-2 border-[#aed5f1] ">Pontuação</h1>
-
+                <div class="pontos  flex flex-col gap-2 " id="pontos"></div>
             </div>
         </div>
     </div>
 
+    <div class="justify-center items-center flex align-middle m-auto">
+        <button onclick="home()" class="ml-170 rounded-full bg-[#a2ded0] w-[200px] h-[40px] shadow-xl border-2 border-[#333] cursor-pointer hover:bg-[#ededed] font-bold mt-[-700px]">Voltar para a tela inicial</button>
+    </div>
 
     <script src="js/rank.js"></script>
 </body>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#ededed]">
+    <div class="bg  z-[-1]">
+        <img src="img/bg.jpg" class="w-full opacity-80 fixed z-[-1]">
+    </div>
+
+    <div class="head z-5 h-33 w-full bg-[#ededed] shadow-xl fixed">
+        <div class="flex ">
+            <img src="img/Logo.png" class="h-33 ml-10">
+            <h1 class="text-[60px] mt-4 ml-2 text-[#a2ded0] font-bold cursor-pointer" onclick="home()">BrainTetris</h1>
+        </div>
+    </div>
+    <div class="h-33 z-4 w-full"></div>
+
+    <h2 id="cont" class="text-center text-[#aed5f1] font-bold text-[30px]"></h2>
+
+    <div class="t justify-center gap-4 items-center m-auto align-middle flex">
+        <div class="border-3 h-[700px] fixed border-[#a2ded0] w-[500px] mt-200 mr-200"></div>
+    </div>
+
+    <div class="justify-center flex flex-col items-center m-auto align-middle">
+        <h2 class="text-center text-[30px]">Pontuação</h2>
+        <h1 class="text-center text-[50px] border-2 border-[#333] w-[160px] rounded-lg shadow-lg"></h1>
+        <button
+            class="h-[80px] text-[30px] font-bold text-[#333] shadow-lg bg-[#a2ded0] mt-10 hover:bg-[#aed5f1] cursor-pointer w-[200px] border-[#333] border-3 rounded-lg">Encerrar</button>
+    </div>
+    <script src="js/tetris.js"></script>
+</body>
+
+</html>
